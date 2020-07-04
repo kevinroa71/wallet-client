@@ -1,24 +1,21 @@
-# wallet_client
+# Wallet Client
 
-## Project setup
+## Instalar las dependencias
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+### Configurar la variable de entorno
 ```
-npm run serve
+process.env.REST_URL (http://localhost:3000/ (default))
 ```
 
-### Compiles and minifies for production
+### Compilar los archivos para produccion
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Configurar el servidor
+configurar la carpeta raiz de tur servidor a la ruta `project-dir/dist`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Mas configuracion
+Ver [Documentacion](https://cli.vuejs.org/config/).
